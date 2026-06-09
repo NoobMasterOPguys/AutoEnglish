@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
-import react from '@vitejs/plugin-react'
+import react from "@vitejs/plugin-react";
 
 
 function figmaAssetResolver() {
@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: "/AutoEnglish/",
+  base: "/",
   plugins: [
     figmaAssetResolver(),
     react(),
